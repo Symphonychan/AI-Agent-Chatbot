@@ -1,0 +1,21 @@
+[project]
+name = "ai-agent-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "certifi>=2026.4.22",
+    "fastapi>=0.136.1",
+    "langchain>=1.3.1",
+    "langchain-community>=0.4.1",
+    "langchain-groq>=1.1.2",
+    "langchain-openai>=1.2.1",
+    "langgraph>=1.2.0",
+    "langgraph-prebuilt>=1.1.0",
+    "pydantic>=2.13.4",
+    "python-dotenv>=1.2.2",
+    "streamlit>=1.57.0",
+    "tavily-python>=0.7.24",
+    "uvicorn>=0.47.0",
+]
